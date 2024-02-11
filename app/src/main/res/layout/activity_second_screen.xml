@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="Zhanibek is a student whose life is filled with a passion for knowledge and discovery. Each day presents an opportunity for him to learn something new, overcome another academic challenge, and take a step closer to his future ambitions. Known among his peers for his curiosity and determination, Zhanibek excels in his studies, always eager to dive deeper into subjects that intrigue him. Beyond academics, he actively participates in extracurricular activities, showcasing his leadership skills and commitment to community service. Zhanibek's journey is a testament to the power of hard work, perseverance, and an unquenchable thirst for learning. As he continues on his path, there's no doubt that his efforts will lead him to significant achievements and a fulfilling career.
+Zhanibek's story is not just about his academic pursuits; it's a narrative of personal growth, resilience, and the quest for excellence. In the corridors of his university, he's known as someone who challenges the status quo, always questioning, always seeking to improve. His professors recognize his keen intellect and the depth of his questions, which often spark lively discussions and further exploration of topics."
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+</LinearLayout>
